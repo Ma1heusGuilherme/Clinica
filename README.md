@@ -10,7 +10,7 @@ Este repositório contém a landing page desenvolvida para a Clínica Saúde e V
 ## Instalação
 Para executar a landing page localmente:
 1. Clone o repositório: `git clone https://github.com/Ma1heusGuilherme/Clinica/tree/master`
-2. Abra o arquivo `Clinica.html` em um navegador de sua preferência.
+2. Abra o `file:///C:/Users/Ryzen/Desktop/Clinica/Clinica.html` em um navegador de sua preferência.
 
 ## Demonstração
 [Vídeo de Demonstração](link_para_o_vídeo)
