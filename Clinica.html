@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clínica Saúde e Vida</title>
+    <link rel="stylesheet" href="Clinica.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Clínica Saúde e Vida</h1>
+      <nav>
+        <ul>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#about">Sobre Nós</a></li>
+          <li><a href="#testimonials">Avaliações</a></li>
+          <li><a href="#contact">Agende Sua Consulta</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="services">
+      <h2>Nossos Serviços</h2>
+      <div class="services-grid">
+        <div class="service-item">
+          <img src="imagens/imagem2.jpg" alt="Atendimento Médico" />
+          <p>Atendimento Médico Personalizado</p>
+        </div>
+        <div class="service-item">
+          <img src="imagens/imagem4.jpg" alt="Exames Laboratoriais" />
+          <p>Exames Laboratoriais Completos</p>
+        </div>
+        <div class="service-item">
+          <img src="imagens/imagem1.png" alt="Espaço e Atendimento" />
+          <p>Espaço Moderno e um Ótimo Atendimento</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>Sobre Nós</h2>
+      <p>
+        A Clínica Saúde e Vida foi fundada em 1998 com uma missão clara:
+        oferecer atendimento médico de excelência, priorizando o bem-estar
+        integral de cada paciente. Com uma equipe de profissionais altamente
+        qualificados e em constante atualização, garantimos um serviço
+        humanizado e eficaz.
+      </p>
+      <p>
+        Comprometidos com a inovação, investimos continuamente em tecnologia de
+        ponta para diagnósticos precisos e tratamentos eficientes, facilitando
+        uma recuperação mais rápida e menos invasiva. Nossas instalações são
+        projetadas para promover uma experiência acolhedora e confortável,
+        entendendo que o ambiente também contribui para a cura.
+      </p>
+      <h3>Conheça Nossos Especialistas</h3>
+      <div class="team-grid">
+        <div class="team-member">
+          <img
+            src="imagens/imagem10.jpg"
+            alt="Dra. Ana Beatriz - Cardiologista"
+          />
+          <h4>Dra. Ana Beatriz</h4>
+          <p>Cardiologista</p>
+        </div>
+        <div class="team-member">
+          <img
+            src="imagens/imagem11.jpg"
+            alt="Dr. Carlos Eduardo - Neurologista"
+          />
+          <h4>Dr. Carlos Eduardo</h4>
+          <p>Neurologista</p>
+        </div>
+        <div class="team-member">
+          <img src="imagens/imagem5.jpeg" alt="Dr. João Paulo - Pediatra" />
+          <h4>Dr. João Paulo</h4>
+          <p>Pediatra</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <h2>Avaliações</h2>
+      <blockquote>
+        "Excelente atendimento e profissionais competentes. Recomendo a todos!"
+        <footer>— João Silva, paciente satisfeito</footer>
+      </blockquote>
+      <blockquote>
+        "A atenção aos detalhes e o cuidado individualizado fazem toda a
+        diferença. Estou muito grata!"
+        <footer>— Maria Oliveira, paciente grata</footer>
+      </blockquote>
+      <blockquote>
+        "Serviço excepcional, desde a recepção até o tratamento. Altamente
+        recomendado!"
+        <footer>— Carlos Andrade, paciente entusiasmado</footer>
+      </blockquote>
+    </section>
+
+    <section id="contact">
+      <h2>Agende Sua Consulta</h2>
+      <form action="submit_form.php" method="post" class="contact-form">
+        <input
+          type="text"
+          name="name"
+          placeholder="Nome Completo"
+          required
+        /><br />
+        <input type="email" name="email" placeholder="E-mail" required /><br />
+        <input type="tel" name="phone" placeholder="Telefone" required /><br />
+        <select name="specialty" required>
+          <option value="" disabled selected>Especialidade</option>
+          <option value="Neurologista">Neurologista</option>
+          <option value="Cardiologista">Cardiologista</option>
+          <option value="Pediatra">Pediatra</option></select
+        ><br />
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2024 Clínica Saúde e Vida. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
